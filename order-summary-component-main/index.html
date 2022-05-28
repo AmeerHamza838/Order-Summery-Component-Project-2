@@ -47,8 +47,8 @@
       }
       .paragraph{
         color:  hsl(224, 23%, 55%);
-        margin: none;
-        padding: 0 42px;
+        margin: 20px;
+        padding: 0 45px;
         font-size: 1rem;
         text-align: center;
       }
@@ -71,7 +71,7 @@
         padding: 0 20px 0 0;
       }
       .plan-details{
-        margin-right: 100px;
+        margin-right: 70px;
         margin-bottom: 0px;
         margin-top: 0px;
       }
@@ -95,7 +95,7 @@
         opacity: 0.8;
       }
       .button{
-        font-family: "Red Hat Display", sans-serif;
+        font-family: inherit;
         color: white;
         font-weight: 700;
         margin-top: 30px;
@@ -116,6 +116,7 @@
         cursor: pointer;
       }
       .cancel a{
+        font-family: inherit;
         color: hsl(224, 23%, 55%);
         text-decoration: none;
         margin-top: 30px;
@@ -125,6 +126,9 @@
       }
       .cancel a:hover{
         color: hsl(223, 47%, 23%);
+      }
+      .btn{
+        font-family: "Red Hat Display", sans-serif;
       }
 
       footer{
@@ -158,13 +162,13 @@
             <p class="plan">Annual Plan <br>
             <p class="price"></p><span>$59.99/year</span></p>
           </div>
-          <div class="plan-change">
+          <div class="plan-change btn">
             <a href="#">Change</a>
           </div>
         </div>
         <input type="submit" name="button"
-        id="button" class="button" for="button" value="Proceed to Payment"><br>
-        <span class="cancel"><a href="#">Cancel Order</a></span>
+        id="button" class="button btn" for="button" value="Proceed to Payment"><br>
+        <span class="cancel btn"><a href="#">Cancel Order</a></span>
       </div></main>
       <footer><div class="attribution">
         Challenge by
