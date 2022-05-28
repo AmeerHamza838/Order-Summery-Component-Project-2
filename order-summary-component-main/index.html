@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Order summary card</title>
+    <style>
+      body {
+        font-family: "Red Hat Display", sans-serif;
+        background-color: hsl(225, 100%, 94%);
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+      }
+      .container{
+        width: 450px;
+        height: 650px;
+        background: rgb(255, 255, 255);
+        border-radius: 1em;
+      }
+      .hero{
+        border-radius: 1em 1em 0 0;
+      }
+      .heading{
+        color: hsl(223, 47%, 23%);
+        font-weight: 900;
+        text-align: center;
+      }
+      .paragraph{
+        color:  hsl(224, 23%, 55%);
+        margin: none;
+        padding: 0 42px;
+        font-size: 1rem;
+        text-align: center;
+      }
+      .container1 {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background: hsl(225, 100%, 98%);
+        width: 85%;
+        height: auto;
+        left: 2rem;
+        border-radius: 0.5em;
+      }
+
+      .plan-details, .icon, .plan-change{
+        
+        margin: 10px 0 ; 
+        padding: 0 20px 0 0;
+      }
+      .plan-details{
+        margin-right: 100px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+      }
+      .icon{
+        margin-top: 17px;
+      }
+      span{
+        color:  hsl(224, 23%, 55%);
+      }
+      .plan{
+        color: hsl(223, 47%, 23%);
+        font-weight: 900;
+        margin-bottom: -10px !important;
+      }
+      .plan-change a{
+        font-weight: 700;
+        color: hsl(245, 75%, 52%);
+      }
+      .plan-change a:hover{
+        text-decoration: none;
+        opacity: 0.8;
+      }
+      .button{
+        font-family: "Red Hat Display", sans-serif;
+        color: white;
+        font-weight: 700;
+        margin-top: 30px;
+        position: relative;
+        width: 85%;
+        height: 50px;
+        left: 2rem;
+        border-radius: 1rem;
+        border-style: none;
+        background:  hsl(245, 75%, 52%);
+        text-align: center;
+        box-shadow:  3px 16px 20px -5px rgb(207, 200, 255);
+        
+      }
+      .button:hover{
+        opacity: 0.8;
+        box-shadow:  3px 16px 25px -5px rgb(193, 187, 236);
+        cursor: pointer;
+      }
+      .cancel a{
+        color: hsl(224, 23%, 55%);
+        text-decoration: none;
+        margin: 27px;
+        display: block;
+        text-align: center;
+        font-weight: 700;
+      }
+      .cancel a:hover{
+        color: hsl(223, 47%, 23%);
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <object data="./images/illustration-hero.svg" type="" class="hero"></object>
+        <div class="text">
+        <h1 class="heading">Order Summary</h1>
+        <p class="paragraph">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p></div>
+        <div class="container1">
+          <div class="icon">
+            <img src="./images/icon-music.svg" alt="Music Icon" />
+          </div>
+          <div class="plan-details">
+            <p class="plan">Annual Plan <br>
+            <p class="price"></p><span>$59.99/year</span></p>
+          </div>
+          <div class="plan-change">
+            <a href="#">Change</a>
+          </div>
+        </div>
+        <input type="submit" name="button"
+        id="button" class="button" for="button" value="Proceed to Payment"><br>
+        <span class="cancel"><a href="#">Cancel Order</a></span>
+      </div>
+    </main>
+    <br>
+    <br>
+    <br>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Ameer Hamza</a>
+      </div>
+    </footer>
+  </body>
+</html>
