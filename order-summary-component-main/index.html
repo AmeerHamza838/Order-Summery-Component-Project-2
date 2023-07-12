@@ -1,55 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Frontend Mentor | Order summary card</title>
-    <style>
-      
-    </style>
-  </head>
-  <body>
-    <main>
-      <div class="container">
-        <object data="./images/illustration-hero.svg" type="" class="hero"></object>
-        <div class="text">
-        <h1 class="heading">Order Summary</h1>
-        <p class="paragraph">
-          You can now listen to millions of songs, audiobooks, and podcasts on
-          any device anywhere you like!
-        </p></div>
-        <div class="container1">
-          <div class="icon">
-            <img src="./images/icon-music.svg" alt="Music Icon" />
-          </div>
-          <div class="plan-details">
-            <p class="plan">Annual Plan <br>
-            <p class="price"></p><span>$59.99/year</span></p>
-          </div>
-          <div class="plan-change btn">
-            <a href="#">Change</a>
-          </div>
-        </div>
-        <input type="submit" name="button"
-        id="button" class="button btn" for="button" value="Proceed to Payment"><br>
-        <span class="cancel btn"><a href="#">Cancel Order</a></span>
-      </div></main>
-      <footer><div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Ameer Hamza</a>
-      </div></footer>
-      
-  </body>
+
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+    rel="stylesheet" />
+  <title>Frontend Mentor | Order summary card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <img src="images/illustration-hero.svg" alt="hero background imamge" id="heroImage">
+    <div class="main-container"><h1 class="heading">Order Summary</h1>
+    <p>You can now listen to millions of songs audiobooks, and podcasts on any device anywhere you like!</p>
+
+    <div class="plan-container"><img src="./images/icon-music.svg" alt="music icon" id="music-icon">
+      <div class="plan-details">
+        <h3>Annual Plan</h3>
+        <p>$59.99/year</p>
+      </div>
+
+      <a href="" class="change">Change</a>
+    </div>
+
+    <button>Proceed to Payment</button>
+    <a href="" class="cancel">Cancel Order</a></div>
+    
+
+    </main>
+    
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a
+        href="#">Ameer Hamza</a>
+    </div>
+</body>
+
 </html>
