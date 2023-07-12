@@ -4,10 +4,11 @@
     /* Primary */
     --pale-blue: hsl(225, 100%, 94%);
     --bright-blue: hsl(245, 75%, 52%);
+    --bright-blue-second: rgb(117, 104, 255);
 
     /* Neutral */
     --vary-pale-blue: hsl(225, 100%, 98%);
-    --desaturated-blue: hsl(224, 23%, 55%);
+    --desaturated-blue: hsl(224, 35%, 57%);
     --dark-blue: hsl(223, 47%, 23%);
 
 }
@@ -113,12 +114,32 @@ button{
     display: block;
     color: white;
     background-color: var(--bright-blue);
+    cursor: pointer;
+}
+
+button:hover{
+   background-color: var(--bright-blue-second);
+}
+
+.change:hover{
+    color: var(--bright-blue-second);
+    text-decoration: none;
+}
+
+.cancel:hover {
+    text-decoration: none;
+    color: black
 }
 
 
 
 .cancel, p{
     color: var(--desaturated-blue)
+}
+
+.attribution a{
+    text-decoration: none;
+    color: var(--bright-blue)
 }
 
 
