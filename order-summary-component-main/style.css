@@ -84,11 +84,11 @@ p{
     right: 25px;
     font-size: 13px;
 }
-.plan-details h3{
+.plan-details h2{
     font-weight: 700;
-    font-size: 12;
+    font-size: 16px;
 }
-h1, h3{
+h1, h2{
     color: var(--dark-blue);
 }
 
