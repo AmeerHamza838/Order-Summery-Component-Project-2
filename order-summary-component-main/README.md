@@ -24,8 +24,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/order-summary-component-main-6sgWYW54Ho)
-- Live Site URL: [Live Site URL](https://order-summery-component-project-2.vercel.app/?vercelToolbarCode=UjhHksQZ9pWQ7R_)
+- Solution URL: [https://www.frontendmentor.io/solutions/order-summary-component-main-6sgWYW54Ho](https://www.frontendmentor.io/solutions/order-summary-component-main-6sgWYW54Ho)
+- Live Site URL: [https://order-summery-component-project-2.vercel.app/?vercelToolbarCode=UjhHksQZ9pWQ7R_](https://order-summery-component-project-2.vercel.app/?vercelToolbarCode=UjhHksQZ9pWQ7R_)
 
 
 ### Built with
