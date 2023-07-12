@@ -70,16 +70,18 @@ p{
 }
 
 .plan-container{
+    width: 90%;
     background-color: var(--vary-pale-blue);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 1rem;
+    margin: 1.5rem 1rem;
     padding: 15px;
     border-radius: .5rem;
 }
 
 .plan-details{
+    text-align: left;
     position: relative;
     right: 25px;
     font-size: 13px;
@@ -157,19 +159,19 @@ button:hover{
         width: 40px;
     }
 
-    .plan-details, .plan-details p{
+    .plan-details h2, .plan-details p{
+        font-size: 13px;
+    }
+    .plan-details {
+        text-align: left;
         position: relative;
-        right: 5px;
+        right: 15px;
         font-size: 10px;
     }
 
     .change, .cancel{
         font-size: 11px;
     }
- 
 
-    .attribution {
-        font-size: 10px;
-    }
 
 }
